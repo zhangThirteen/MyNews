@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:id="@+id/add_channel_back"
+    android:layout_width="match_parent"
+    android:layout_height="?android:actionBarSize"
+    android:background="@color/red">
+    <ImageView
+        android:id="@+id/back_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/left_back_button_normal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击返回"
+        android:layout_gravity="center"
+        android:textColor="@color/Gray"
+        android:textSize="15sp"/>
+</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/channel_explain"
+        android:textColor="@color/red"
+        android:textSize="15sp"/>
+
+    <TextView
+        style="@style/news_channel_sort_title"
+        android:text="@string/my_channel"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/news_channel_mine_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never">
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        style="@style/news_channel_sort_title"
+        android:text="@string/more_channel"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/news_channel_more_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

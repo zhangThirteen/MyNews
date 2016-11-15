@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">My</string>
+
+    <string name="login_username_hint">请输入用户名&#8230;</string>
+    <string name="login_password_hint">请输入密码&#8230;</string>
+    <string name="login_email_hint">请再次输入密码&#8230;</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="register_txt1">还没有账号？</string>
+    <string name="register_txt2">立即注册 ></string>
+    <string name="login_account">账号 </string>
+    <string name="login_pwd">密码 </string>
+    <string name="login_email">确认密码 </string>
+    <string name="usernamehint">以中为或英文字母开头,限4 - 16个字符,一个汉字两个字符 </string>
+
+    <!-- 新闻频道 -->
+    <string name="channel_explain">点击可增删/长按并拖拽可排序</string>
+    <string name="my_channel">我的频道</string>
+    <string name="more_channel">更多频道</string>
+    <string name="channel_manage">频道管理</string>
+
+
+    <string-array name="news_channel">
+        <item>国内焦点</item>
+        <item>国际焦点</item>
+        <item>军事焦点</item>
+        <item>财经焦点</item>
+        <item>互联网焦点</item>
+        <item>房产焦点</item>
+        <item>汽车焦点</item>
+        <item>体育焦点</item>
+        <item>娱乐焦点</item>
+        <item>游戏焦点</item>
+        <item>教育焦点</item>
+        <item>女人焦点</item>
+        <item>科技焦点</item>
+        <item>社会焦点</item>
+        <item>国内最新</item>
+        <item>台湾最新</item>
+        <item>港澳最新</item>
+        <item>国际最新</item>
+        <item>军事最新</item>
+        <item>财经最新</item>
+        <item>理财最新</item>
+        <item>宏观经济最新</item>
+        <item>互联网最新</item>
+        <item>房产最新</item>
+        <item>汽车最新</item>
+        <item>体育最新</item>
+        <item>国际足球最新</item>
+        <item>国内足球最新</item>
+        <item>CBA最新</item>
+        <item>综合体育最新</item>
+        <item>娱乐最新</item>
+        <item>电影最新</item>
+        <item>电视最新</item>
+        <item>游戏最新</item>
+        <item>教育最新</item>
+        <item>女人最新</item>
+        <item>美容护肤最新</item>
+        <item>情感两性最新</item>
+        <item>健康养生最新</item>
+        <item>科技最新</item>
+        <item>数码最新</item>
+        <item>电脑最新</item>
+        <item>科普最新</item>
+        <item>社会最新</item>
+    </string-array>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/red">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+
+            android:text="我的头条"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/main_fragment_head_shape">
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:src="@mipmap/feed_search_icon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="搜你想搜的"
+                android:textColor="@color/tc"
+                android:textSize="15sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tl"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/Gray"
+                app:tabMode="scrollable"
+                app:tabSelectedTextColor="@color/red"
+                app:tabTextColor="@color/black" />
+
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/lightGray"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/mainFL_add_channel"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/add_channel_titlbar_new"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
